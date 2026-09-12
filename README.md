@@ -9,6 +9,18 @@ Three Flask microservices on Amazon EKS behind a single Application Load Balance
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 
+<p>
+  <img alt="Last commit" src="https://img.shields.io/github/last-commit/RajGenStack/aws-lb-controller-domain-configuration-RJS?style=flat-square&labelColor=0d1117&color=ff6b35">
+  <img alt="Top language" src="https://img.shields.io/github/languages/top/RajGenStack/aws-lb-controller-domain-configuration-RJS?style=flat-square&labelColor=0d1117&color=8b949e">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/RajGenStack/aws-lb-controller-domain-configuration-RJS?style=flat-square&labelColor=0d1117&color=8b949e">
+</p>
+
+## What this demonstrates
+
+- Granting a controller AWS permissions through IAM roles for service accounts, with no static credentials in the cluster
+- Three routing strategies on a single load balancer: by path, by path over HTTPS with ACM, and by subdomain
+- Sharing one load balancer across ingress resources to keep cost down
+
 ## Services
 
 | Service | Source | Page |
